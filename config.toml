@@ -31,22 +31,26 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name       = "Git & GitHub"
-    url        = "/topics/git/"
+    identifier = "menu.git"
+    url        = "/git"
     weight     = 2
 
 [[menu.main]]
-    name       = "Topic 2"
-    url        = "/topics/serenata2"
+    name       = "Linux"
+    identifier = "menu.linux"
+    url        = "/linux"
     weight     = 3
 
 [[menu.main]]
-    name       = "Topic 3"
-    url        = "/topics/hekgit"
+    name       = "Web"
+    identifier = "menu.web"
+    url        = "/web"
     weight     = 4
 
 [[menu.main]]
-    name       = "Topic 4"
-    url        = "/topics/25key"
+    name       = "Docker"
+    identifier = "menu.docker"
+    url        = "/docker"
     weight     = 5
 
 
@@ -86,7 +90,7 @@ pluralizelisttitles = false
     viewMorePostLink = "/blog/"
     author = "DevCows"
     defaultKeywords = ["devcows", "hugo", "go"]
-    mainSections = ["blog"]
+    mainSections = ["linux", "docker", "git", "web"]
     defaultDescription = "Site template made by Devcows using Hugo"
 
     # Social media
