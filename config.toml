@@ -40,8 +40,8 @@ pluralizelisttitles = false
     weight     = 3
 
 [[menu.main]]
-    name       = "Topic 3"
-    url        = "/topics/hekgit"
+    name       = "Web"
+    url        = "/topics/web"
     weight     = 4
 
 [[menu.main]]
