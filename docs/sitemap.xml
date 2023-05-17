@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://highlaw00.github.io/teamWebPage/topics/25key/</loc>
+    <loc>https://highlaw00.github.io/teamWebPage/docker/25key/</loc>
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/authors/</loc>
   </url><url>
@@ -10,22 +10,32 @@
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/contact/</loc>
   </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/docker/</loc>
+  </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/faq/</loc>
   </url><url>
-    <loc>https://highlaw00.github.io/teamWebPage/topics/git/</loc>
+    <loc>https://highlaw00.github.io/teamWebPage/git/</loc>
   </url><url>
-    <loc>https://highlaw00.github.io/teamWebPage/topics/hekgit/</loc>
+    <loc>https://highlaw00.github.io/teamWebPage/tags/git/</loc>
   </url><url>
-    <loc>https://highlaw00.github.io/teamWebPage/topics/serenata2/</loc>
+    <loc>https://highlaw00.github.io/teamWebPage/categories/git/</loc>
+  </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/git/git/</loc>
+  </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/web/hekgit/</loc>
+  </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/linux/</loc>
+  </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/linux/serenata2/</loc>
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/tags/</loc>
-  </url><url>
-    <loc>https://highlaw00.github.io/teamWebPage/topics/</loc>
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/tags/topics/</loc>
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/categories/topics/</loc>
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/</loc>
+  </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/web/</loc>
   </url>
 </urlset>
