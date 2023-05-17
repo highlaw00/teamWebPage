@@ -1,7 +1,7 @@
 +++
 title = "Git Hub"
-tags = ["topics"]
-categories = ["topics"]
+tags = ["topics", "git"]
+categories = ["topics", "git"]
 +++
 
 --- 
