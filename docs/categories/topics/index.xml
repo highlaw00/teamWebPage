@@ -8,37 +8,38 @@
     <language>en-us</language><atom:link href="https://highlaw00.github.io/teamWebPage/categories/topics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>25key&#39;s Topic</title>
-      <link>https://highlaw00.github.io/teamWebPage/topics/25key/</link>
+      <link>https://highlaw00.github.io/teamWebPage/docker/25key/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://highlaw00.github.io/teamWebPage/topics/25key/</guid>
+      <guid>https://highlaw00.github.io/teamWebPage/docker/25key/</guid>
       <description>여기에 텍스트, 이미지를 삽입하시면 됩니다. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu sodales elit, vel efficitur odio. Donec consequat, augue at hendrerit imperdiet, diam lectus ultricies ante, eu pulvinar risus ante suscipit massa. Quisque placerat magna velit, sed mattis nisl finibus quis. Donec convallis vestibulum lorem, efficitur pretium purus lacinia nec. Maecenas at mauris metus. Quisque diam nunc, placerat eget sem at, gravida rhoncus neque. Nunc cursus tincidunt felis et gravida.</description>
     </item>
     
     <item>
       <title>Git Hub</title>
-      <link>https://highlaw00.github.io/teamWebPage/topics/git/</link>
+      <link>https://highlaw00.github.io/teamWebPage/git/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://highlaw00.github.io/teamWebPage/topics/git/</guid>
-      <description>여기에 텍스트, 이미지를 삽입하시면 됩니다. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu sodales elit, vel efficitur odio. Donec consequat, augue at hendrerit imperdiet, diam lectus ultricies ante, eu pulvinar risus ante suscipit massa. Quisque placerat magna velit, sed mattis nisl finibus quis. Donec convallis vestibulum lorem, efficitur pretium purus lacinia nec. Maecenas at mauris metus. Quisque diam nunc, placerat eget sem at, gravida rhoncus neque. Nunc cursus tincidunt felis et gravida.</description>
+      <guid>https://highlaw00.github.io/teamWebPage/git/git/</guid>
+      <description>Git 1. Git이란? git은 컴퓨터의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템이다.
+2. Git 소스 상태  tracked : 추적 대상(관리 대상) untracked : 추적 대상 아님 git status : 추적 대상인지 확인하는 명령어  3. 관리 대상 상태  committed : 버전관리에 안전하게 저장됨, snapshot staged : 커밋할 대상이라고 표시된 상태 modified : 파일이 수정되었지만 staged 되지 않음 tracked 인 파일은 변경을 감지함 untracked인 파일은 변경을 감지하지 않음 untracked인 파일이 새로 생긴 것은 감지함  4.</description>
     </item>
     
     <item>
       <title>HEK GIT&#39;s topic</title>
-      <link>https://highlaw00.github.io/teamWebPage/topics/hekgit/</link>
+      <link>https://highlaw00.github.io/teamWebPage/web/hekgit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://highlaw00.github.io/teamWebPage/topics/hekgit/</guid>
+      <guid>https://highlaw00.github.io/teamWebPage/web/hekgit/</guid>
       <description>여기에 텍스트, 이미지를 삽입하시면 됩니다. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu sodales elit, vel efficitur odio. Donec consequat, augue at hendrerit imperdiet, diam lectus ultricies ante, eu pulvinar risus ante suscipit massa. Quisque placerat magna velit, sed mattis nisl finibus quis. Donec convallis vestibulum lorem, efficitur pretium purus lacinia nec. Maecenas at mauris metus. Quisque diam nunc, placerat eget sem at, gravida rhoncus neque. Nunc cursus tincidunt felis et gravida.</description>
     </item>
     
     <item>
       <title>Serenata2&#39;s Topic</title>
-      <link>https://highlaw00.github.io/teamWebPage/topics/serenata2/</link>
+      <link>https://highlaw00.github.io/teamWebPage/linux/serenata2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://highlaw00.github.io/teamWebPage/topics/serenata2/</guid>
+      <guid>https://highlaw00.github.io/teamWebPage/linux/serenata2/</guid>
       <description>여기에 텍스트, 이미지를 삽입하시면 됩니다. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu sodales elit, vel efficitur odio. Donec consequat, augue at hendrerit imperdiet, diam lectus ultricies ante, eu pulvinar risus ante suscipit massa. Quisque placerat magna velit, sed mattis nisl finibus quis. Donec convallis vestibulum lorem, efficitur pretium purus lacinia nec. Maecenas at mauris metus. Quisque diam nunc, placerat eget sem at, gravida rhoncus neque. Nunc cursus tincidunt felis et gravida.</description>
     </item>
     
