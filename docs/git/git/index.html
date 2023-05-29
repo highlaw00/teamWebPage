@@ -7,7 +7,7 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Git Hub</title>
+<title>Git</title>
 <meta name="author" content="DevCows" />
 
 
@@ -36,7 +36,7 @@
 
 
 
-<link href="/teamWebPage/css/custom.css?1684311375" rel="stylesheet">
+<link href="/teamWebPage/css/custom.css?1685348121" rel="stylesheet">
 
 
 
@@ -66,7 +66,7 @@
 
 <meta property="og:locale" content="en_us">
 <meta property="og:site_name" content="Universal">
-<meta property="og:title" content="Git Hub">
+<meta property="og:title" content="Git">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://highlaw00.github.io/teamWebPage/git/git/" />
 <meta property="og:description" content="Site template made by Devcows using Hugo">
@@ -85,7 +85,7 @@
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@GoHugoIO">
-<meta name="twitter:title" content="Git Hub">
+<meta name="twitter:title" content="Git">
 
 <meta name="twitter:image" content="https://highlaw00.github.io/teamWebPage/img/sharing-default.png">
 
@@ -139,10 +139,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/teamWebPage/">
                     
-                      <img src="/teamWebPage/img/logo.png" alt="Git Hub logo" class="hidden-xs hidden-sm" />
-                      <img src="/teamWebPage/img/logo-small.png" alt="Git Hub logo" class="visible-xs visible-sm" />
+                      <img src="/teamWebPage/img/logo.png" alt="Git logo" class="hidden-xs hidden-sm" />
+                      <img src="/teamWebPage/img/logo-small.png" alt="Git logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Git Hub - go to homepage</span>
+                    <span class="sr-only">Git - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -259,7 +259,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Git Hub</h1>
+                <h1>Git</h1>
             </div>
         </div>
     </div>
@@ -298,39 +298,24 @@
 <li>untracked인 파일이 새로 생긴 것은 감지함</li>
 </ul>
 <h4 id="4-git-명령어">4. git 명령어</h4>
-<ul>
-<li>git add : untraked 인 파일을 tracked로 변경, 동시에 staged로 변경</li>
-<li>git commit : staged된 파일을 커밋</li>
-<li>git rm : traked인 상태의 파일을 삭제</li>
-<li>git reset HEAD &lt;파일&gt; : 파일 상태를 unstage로 변경</li>
-<li>git commit &ndash;amend : 커밋 재작성</li>
-<li>git checkout &ndash; <!-- raw HTML omitted --> : stage 되지 않은 파일을 되돌리기</li>
-<li>git checkout &lt;branch명&gt; : branch로 HEAD를 이동</li>
-<li>git revert &lt;커밋명&gt; : 해당 커밋을 취소</li>
-<li>git reset &ndash;hard &lt;이동하려는 이전 커밋&gt; : 특정 커밋으로 이동, 저장이 안되기 때문에 주의해야 함.</li>
-</ul>
-<hr>
-<h2 id="github">Github</h2>
-<h4 id="1-github란">1. Github란?</h4>
-<p>git을 기반으로 한 원격 저장소 호스팅 서비스</p>
-<h4 id="2-보안-설정">2. 보안 설정</h4>
-<p>github는 2FA(2팩터)인증 설정을 해야 한다.
-github는 패스워드 입력을 통한 저장소 사용이 금지되어, ssh key를 사용해야 한다.</p>
-<h4 id="3-코드-관리">3. 코드 관리</h4>
-<ol>
-<li>github에서 repository를 생성하고, 로컬 컴퓨터에 clone한다.</li>
-<li>로컬에서 작업 내용을 git add 명령어와 git commit 명령어로 커밋을 작성한다.</li>
-<li>git push를 통해 해당 커밋을 원격 저장소에 반영한다.</li>
-<li>git pull를 통해 다른 사람의 커밋 내역을 로컬로 가져올 수 있다.</li>
-</ol>
-<hr>
-<h2 id="githubio">Github.io</h2>
-<ul>
-<li>github는 개인 블로그를 작성할 수 있는 기능을 제공한다.</li>
-<li>&lt;유저명&gt;.github.io라는 이름으로 repository를 생성하면, 내부에 index.html을 찾아 호스팅해준다.</li>
-<li>유저 당 한 개의 블로그만 운영할 수 있다.</li>
-</ul>
+<pre tabindex="0"><code> git add : untraked 인 파일을 tracked로 변경, 동시에 staged로 변경
 
+ git commit : staged된 파일을 커밋
+
+ git rm : traked인 상태의 파일을 삭제
+
+ git reset HEAD &lt;파일&gt; : 파일 상태를 unstage로 변경
+
+ git commit --amend : 커밋 재작성
+
+ git checkout -- &lt;file&gt; : stage 되지 않은 파일을 되돌리기
+ 
+ git checkout &lt;branch명&gt; : branch로 HEAD를 이동
+
+ git revert &lt;커밋명&gt; : 해당 커밋을 취소
+
+ git reset --hard &lt;이동하려는 이전 커밋&gt; : 특정 커밋으로 이동, 저장이 안되기 때문에 주의해야 함.
+</code></pre>
                         </div>
                         
                         
@@ -407,11 +392,11 @@ github는 패스워드 입력을 통한 저장소 사용이 금지되어, ssh ke
             
             
             <li>
-                <a href="/teamWebPage/categories/git">GIT (1)</a>
+                <a href="/teamWebPage/categories/git">GIT (2)</a>
             </li>
             
             <li>
-                <a href="/teamWebPage/categories/topics">TOPICS (4)</a>
+                <a href="/teamWebPage/categories/topics">TOPICS (6)</a>
             </li>
             
         </ul>
@@ -508,25 +493,25 @@ github는 패스워드 입력을 통한 저장소 사용이 금지되어, ssh ke
                     <div class="image same-height-always">
                         <a href="https://highlaw00.github.io/teamWebPage/git/git/">
                           
-                            <img src="/teamWebPage/img/placeholder.png" class="img-responsive" alt="Git Hub">
+                            <img src="/teamWebPage/img/placeholder.png" class="img-responsive" alt="Git">
                           
                         </a>
                     </div>
                     <div class="name same-height-always">
-                        <h5><a href="https://highlaw00.github.io/teamWebPage/git/git/">Git Hub</a></h5>
+                        <h5><a href="https://highlaw00.github.io/teamWebPage/git/git/">Git</a></h5>
                     </div>
                 </div>
                 
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
-                        <a href="https://highlaw00.github.io/teamWebPage/web/hekgit/">
+                        <a href="https://highlaw00.github.io/teamWebPage/git/github/">
                           
-                            <img src="/teamWebPage/img/placeholder.png" class="img-responsive" alt="HEK GIT&#39;s topic">
+                            <img src="/teamWebPage/img/placeholder.png" class="img-responsive" alt="Git Hub">
                           
                         </a>
                     </div>
                     <div class="name same-height-always">
-                        <h5><a href="https://highlaw00.github.io/teamWebPage/web/hekgit/">HEK GIT&#39;s topic</a></h5>
+                        <h5><a href="https://highlaw00.github.io/teamWebPage/git/github/">Git Hub</a></h5>
                     </div>
                 </div>
                 

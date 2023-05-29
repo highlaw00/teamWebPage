@@ -16,17 +16,19 @@
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/git/</loc>
   </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/git/git/</loc>
+  </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/tags/git/</loc>
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/categories/git/</loc>
   </url><url>
-    <loc>https://highlaw00.github.io/teamWebPage/git/git/</loc>
-  </url><url>
-    <loc>https://highlaw00.github.io/teamWebPage/web/hekgit/</loc>
+    <loc>https://highlaw00.github.io/teamWebPage/git/github/</loc>
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/linux/</loc>
   </url><url>
-    <loc>https://highlaw00.github.io/teamWebPage/linux/serenata2/</loc>
+    <loc>https://highlaw00.github.io/teamWebPage/linux/linux-command-serenata2/</loc>
+  </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/linux/os-kernel-serenata2/</loc>
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/tags/</loc>
   </url><url>
@@ -37,5 +39,7 @@
     <loc>https://highlaw00.github.io/teamWebPage/</loc>
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/web/</loc>
+  </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/web/web/</loc>
   </url>
 </urlset>

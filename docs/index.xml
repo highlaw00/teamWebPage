@@ -36,7 +36,7 @@ Please feel free to contact us, our customer service center is working for you 2
     </item>
     
     <item>
-      <title>Git Hub</title>
+      <title>Git</title>
       <link>https://highlaw00.github.io/teamWebPage/git/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -46,21 +46,41 @@ Please feel free to contact us, our customer service center is working for you 2
     </item>
     
     <item>
-      <title>HEK GIT&#39;s topic</title>
-      <link>https://highlaw00.github.io/teamWebPage/web/hekgit/</link>
+      <title>Git Hub</title>
+      <link>https://highlaw00.github.io/teamWebPage/git/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://highlaw00.github.io/teamWebPage/web/hekgit/</guid>
-      <description>여기에 텍스트, 이미지를 삽입하시면 됩니다. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu sodales elit, vel efficitur odio. Donec consequat, augue at hendrerit imperdiet, diam lectus ultricies ante, eu pulvinar risus ante suscipit massa. Quisque placerat magna velit, sed mattis nisl finibus quis. Donec convallis vestibulum lorem, efficitur pretium purus lacinia nec. Maecenas at mauris metus. Quisque diam nunc, placerat eget sem at, gravida rhoncus neque. Nunc cursus tincidunt felis et gravida.</description>
+      <guid>https://highlaw00.github.io/teamWebPage/git/github/</guid>
+      <description>Github 1. Github란?  git을 기반으로 한 원격 저장소 호스팅 서비스  2. 보안 설정  github는 2FA(2팩터)인증 설정을 해야 한다. github는 패스워드 입력을 통한 저장소 사용이 금지되어, ssh key를 사용해야 한다. ssh key는 ed25519 방식으로 생성할 수 있다.  3. 코드 관리  github에서 repository를 생성하고, 로컬 컴퓨터에 clone한다. 로컬에서 작업 내용을 git add 명령어와 git commit 명령어로 커밋을 작성한다. git push를 통해 해당 커밋을 원격 저장소에 반영한다. git pull를 통해 다른 사람의 커밋 내역을 로컬로 가져올 수 있다.</description>
     </item>
     
     <item>
-      <title>Serenata2&#39;s Topic</title>
-      <link>https://highlaw00.github.io/teamWebPage/linux/serenata2/</link>
+      <title>Linux 명렁어</title>
+      <link>https://highlaw00.github.io/teamWebPage/linux/linux-command-serenata2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://highlaw00.github.io/teamWebPage/linux/serenata2/</guid>
-      <description>여기에 텍스트, 이미지를 삽입하시면 됩니다. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu sodales elit, vel efficitur odio. Donec consequat, augue at hendrerit imperdiet, diam lectus ultricies ante, eu pulvinar risus ante suscipit massa. Quisque placerat magna velit, sed mattis nisl finibus quis. Donec convallis vestibulum lorem, efficitur pretium purus lacinia nec. Maecenas at mauris metus. Quisque diam nunc, placerat eget sem at, gravida rhoncus neque. Nunc cursus tincidunt felis et gravida.</description>
+      <guid>https://highlaw00.github.io/teamWebPage/linux/linux-command-serenata2/</guid>
+      <description>CLI? GUI?  CLI : 명령줄 인터페이스 GUI : 그래픽 사용자 인터페이스  Linux shell  운영체제 상에서 다양한 운영 체제 기능과 서비스를 구현하는 인터페이스를 제공하는 프로그램  Linux 사용자 계정  모든 계정은 숫자로 된 UID 값을 가짐 root 유저의 UID 0번을 가짐 사용자 계정은 /etc/passwd 파일에서 관리됨  Linux 기본 명령어  실행 중인 프로세스 보기  ps # 프로세서를 보는 명령어 ps -ef | grep python # python이라는 이름의 프로세스의 pid 찾기 kill pid # pid를 가지는 프로세스 강제 종료  문자열 다루기  more # 파일의 내용을 한 페이지씩 보여주는 명령어 less # 페이지 보여주는 명령어 cat # 파일 내용 출력 head # [-n 10] -&amp;gt; 맨 앞의 10줄만 보기 tail # [-n 10] -&amp;gt; 맨 뒤의 10줄만 보기 grep # 지정된 문자열이 포함된 행만 표시  파일의 권한, 권한 수정 명령  chmod 755 file_name # 111 101 101 chmod o+x file_name # other에게 실행 권한을 줌 chmod a+x file_name # 모든 그룹에게 실행 권한을 줌  ssh keygen  ssh-keygen -t rsa # RSA 알고리즘으로 키 생성 ssh-keygen -t ed25519 -C &amp;#34;your_mail@address.</description>
+    </item>
+    
+    <item>
+      <title>OS 커널이란 무엇일까?</title>
+      <link>https://highlaw00.github.io/teamWebPage/linux/os-kernel-serenata2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://highlaw00.github.io/teamWebPage/linux/os-kernel-serenata2/</guid>
+      <description>OS의 커널이란?  운영체제의 핵심, 하드웨어 자원을 관리하고 프로그램을 실행 다음과 같은 4가지 기능 수행  메모리 관리 프로세스 관리 장치 드라이버 시스템 호출 및 보안    커널의 종류   단일형 커널
+ 모든 운영체제가 하나의 커널 공간에서 실행됨 구조가 단순 통합되어 한 번에 실행되므로 더 빠르다    마이크로 커널
+ 최소한의 운영체제 기능만을 커널에서 구현하고 다른 기능들은 서버 형태로 제공 작고 독립적이어서 모듈간 영향을 많이 주지 않음 부분적으로 재 로드 가능, 커널 전체를 재 컴파일 하지 않고 기능 추가 가능 만들기 힘들다.</description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>https://highlaw00.github.io/teamWebPage/web/web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://highlaw00.github.io/teamWebPage/web/web/</guid>
+      <description>Web 기본 개념    Web Page 구성 요소   문서의 내용과 구조를 제공하는 HTML이 기본 페이지 이며 여기에 모양을 변형하는 CSS와 동작을 제공하는 JavaScript가 추가된다.   HTML만으로 이루어진 페이지는 존재하나 CSS와 JavaScript만으로 구성된 페이지는 존재할 수 없다.   HTML : 내용(Content)  웹 페이지에 표시할 내용들을 포함한다. 웹 페이지의 구조를 기술한다. Elemnet(요소)들로 구성된다.    CSS(Cascading Style Sheets) : 모양(Style)  웹사이트의 레이아웃을 정함 글꼴, 색상 등의 디자인을 입히는 역할    JavaScript(ECMAScript) : 동작(Behavior)  객체 기반의 스크립트 프로그래밍 언어 브라우저에서 실행되어 동적인 웹페이지 구성 동적 클라이언트 사이드 -&amp;gt; Node.</description>
     </item>
     
   </channel>
