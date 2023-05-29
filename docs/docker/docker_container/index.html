@@ -36,7 +36,7 @@
 
 
 
-<link href="/teamWebPage/css/custom.css?1685349472" rel="stylesheet">
+<link href="/teamWebPage/css/custom.css?1685368323" rel="stylesheet">
 
 
 
@@ -311,80 +311,6 @@
 </code></pre><h4 id="도커-컨테이너-로그인">도커 컨테이너 로그인</h4>
 <pre tabindex="0"><code>docker exec -it &lt;컨테이너 이름&gt; bash
 </code></pre><hr>
-<h3 id="docker-네트워크"><strong>docker 네트워크</strong></h3>
-<h4 id="docker-네트워크-구성">docker 네트워크 구성</h4>
-<ul>
-<li>도커 엔진이 시작될 때 docker0 네트워크 어댑터</li>
-<li>생성컨테이너가 시작될 때마다 veth 가상 네트워크 어댑터 생성</li>
-</ul>
-<h4 id="라우팅">라우팅</h4>
-<ul>
-<li>
-<p>컨테이너 -&gt; 외부 네트워크(인터넷)</p>
-<ul>
-<li>컨테이너 네트워크 WSL의 Hyper-V의 버추얼 스위치를 통하여 보통의 공유기와 같이 외부 네트워크와 통신</li>
-</ul>
-</li>
-<li>
-<p>컨테이너 -&gt; wsl 네트워크</p>
-<ul>
-<li>wsl의 eth 네트워크로 연결</li>
-<li>wsl의 docker0 네트워크로 연결</li>
-<li>ex: 192.168.0.228, 172.17.0.1</li>
-</ul>
-</li>
-<li>
-<p>컨테이너 -&gt; host(Windows) 네트워크</p>
-<ul>
-<li>Windows의 LAN 어댑터 네트워크로 연결</li>
-<li>ex: 192.168.0.228</li>
-</ul>
-</li>
-<li>
-<p>호스트(Windows) -&gt; 컨테이너</p>
-<ul>
-<li>호스트에서 컨테이너로 접속할 수 있는 경로가 없으므로 연결할 수 없음</li>
-<li>컨테이너의 포트를 매핑하여 호스트(WSL)의 포트로 노출시켜야 함</li>
-</ul>
-</li>
-<li>
-<p>외부(인터넷) -&gt; 컨테이너</p>
-<ul>
-<li>컨테이너의 포트를 매핑하여 WSL의 포트로 노출시키고 노출된 WSL 포트를 윈도우에서 포워딩 설정</li>
-</ul>
-<pre tabindex="0"><code>netsh interface portproxy add v4tov4 listenport=&lt;포트번호&gt; listenaddress=0.0.0.0 connectport= &lt;포트번호&gt; \
-connectaddress=&lt;WSL의 ip address&gt;
-</code></pre><ul>
-<li>설정 보기</li>
-</ul>
-<pre tabindex="0"><code>netsh interface portproxy show v4tov4
-</code></pre><ul>
-<li>포트 포워딩 제거하기</li>
-</ul>
-<pre tabindex="0"><code>netsh interface portproxy delete v4tov4 listenport=&lt;포트 번호&gt; listenaddress=0.0.0.0
-</code></pre></li>
-</ul>
-<hr>
-<h3 id="도커의-영구-스토리지"><strong>도커의 영구 스토리지</strong></h3>
-<h4 id="컨테이너의-영구-스토리지-필요성과-사용-방법">컨테이너의 영구 스토리지 필요성과 사용 방법</h4>
-<ul>
-<li>도커 컨테이너의 저장소는 외부와 단절되어 있으며 컨테이너가 삭제될 때 같이 삭제됨</li>
-<li>컨테이너가 삭제되어도 데이터를 보관할 수 있는 영구 저장소(permanent storage) 필요</li>
-<li>컨테이너 외부와 데이터를 주고 받기위해서도 외부에서 접근 가능한 저장소 필요</li>
-<li>도커에서는 다음과 같은 2가지 영구 저장소 사용 방식을 제공
-<ul>
-<li>도커 볼륨(Volume)</li>
-<li>바인드 마운트(Bind Mount)</li>
-</ul>
-</li>
-<li>도커는 볼륨 사용을 권장하나 본 과정에서는 간편한 바인드 마운트 방법을 사용</li>
-</ul>
-<h4 id="바인드-마운트-방법">바인드 마운트 방법</h4>
-<ul>
-<li>docker run 명령에서 -v 옵션을 사용</li>
-</ul>
-<pre tabindex="0"><code>    ex: docker run -v &lt;host dir&gt;:&lt;container dir&gt;
-</code></pre><hr>
 
                         </div>
                         
@@ -462,11 +388,19 @@ connectaddress=&lt;WSL의 ip address&gt;
             
             
             <li>
-                <a href="/teamWebPage/categories/git">GIT (2)</a>
+                <a href="/teamWebPage/categories/git">GIT (3)</a>
             </li>
             
             <li>
-                <a href="/teamWebPage/categories/topics">TOPICS (7)</a>
+                <a href="/teamWebPage/categories/network">NETWORK (1)</a>
+            </li>
+            
+            <li>
+                <a href="/teamWebPage/categories/topics">TOPICS (11)</a>
+            </li>
+            
+            <li>
+                <a href="/teamWebPage/categories/web">WEB (1)</a>
             </li>
             
         </ul>
@@ -496,7 +430,15 @@ connectaddress=&lt;WSL의 ip address&gt;
             </li>
             
             <li >
+                <a href="/teamWebPage/tags/network"><i class="fas fa-tags"></i> network</a>
+            </li>
+            
+            <li >
                 <a href="/teamWebPage/tags/topics"><i class="fas fa-tags"></i> topics</a>
+            </li>
+            
+            <li >
+                <a href="/teamWebPage/tags/web"><i class="fas fa-tags"></i> web</a>
             </li>
             
         </ul>
@@ -574,14 +516,14 @@ connectaddress=&lt;WSL의 ip address&gt;
                 
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
-                        <a href="https://highlaw00.github.io/teamWebPage/git/git/">
+                        <a href="https://highlaw00.github.io/teamWebPage/docker/docker_network/">
                           
-                            <img src="/teamWebPage/img/placeholder.png" class="img-responsive" alt="Git">
+                            <img src="/teamWebPage/img/placeholder.png" class="img-responsive" alt="Docker Network">
                           
                         </a>
                     </div>
                     <div class="name same-height-always">
-                        <h5><a href="https://highlaw00.github.io/teamWebPage/git/git/">Git</a></h5>
+                        <h5><a href="https://highlaw00.github.io/teamWebPage/docker/docker_network/">Docker Network</a></h5>
                     </div>
                 </div>
                 

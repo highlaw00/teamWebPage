@@ -14,6 +14,8 @@
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/docker/docker_container/</loc>
   </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/docker/docker_network/</loc>
+  </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/faq/</loc>
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/git/</loc>
@@ -26,9 +28,19 @@
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/git/github/</loc>
   </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/git/git_advanced/</loc>
+  </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/linux/</loc>
   </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/linux/linux-shell-script-serenata2/</loc>
+  </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/linux/linux-command-serenata2/</loc>
+  </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/tags/network/</loc>
+  </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/categories/network/</loc>
+  </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/web/network/</loc>
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/linux/os-kernel-serenata2/</loc>
   </url><url>
@@ -43,5 +55,9 @@
     <loc>https://highlaw00.github.io/teamWebPage/web/</loc>
   </url><url>
     <loc>https://highlaw00.github.io/teamWebPage/web/web/</loc>
+  </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/tags/web/</loc>
+  </url><url>
+    <loc>https://highlaw00.github.io/teamWebPage/categories/web/</loc>
   </url>
 </urlset>

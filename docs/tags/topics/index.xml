@@ -25,6 +25,17 @@
     </item>
     
     <item>
+      <title>Docker Network</title>
+      <link>https://highlaw00.github.io/teamWebPage/docker/docker_network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://highlaw00.github.io/teamWebPage/docker/docker_network/</guid>
+      <description>docker 네트워크 docker 네트워크 구성  도커 엔진이 시작될 때 docker0 네트워크 어댑터 생성컨테이너가 시작될 때마다 veth 가상 네트워크 어댑터 생성  라우팅   컨테이너 -&amp;gt; 외부 네트워크(인터넷)
+ 컨테이너 네트워크 WSL의 Hyper-V의 버추얼 스위치를 통하여 보통의 공유기와 같이 외부 네트워크와 통신    컨테이너 -&amp;gt; wsl 네트워크
+ wsl의 eth 네트워크로 연결 wsl의 docker0 네트워크로 연결 ex: 192.168.0.228, 172.17.0.1    컨테이너 -&amp;gt; host(Windows) 네트워크</description>
+    </item>
+    
+    <item>
       <title>Git</title>
       <link>https://highlaw00.github.io/teamWebPage/git/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -44,12 +55,43 @@
     </item>
     
     <item>
+      <title>Git_Advanced</title>
+      <link>https://highlaw00.github.io/teamWebPage/git/git_advanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://highlaw00.github.io/teamWebPage/git/git_advanced/</guid>
+      <description>Git - Advanced github 사이트와 터미널 환경에서 git을 사용하는 것으로 모든 작업을 수행할 수 있습니다. 하지만 터미널 환경에 익숙하지 않은 사람들이 존재합니다. 이러한 사람들을 위해 GUI를 지원하는 다양한 프로그램들이 존재합니다.
+IDE 기본적으로 vs code, intellij 등 IDE나 텍스트 에디터에서 git을 사용할 수 있게 지원해주는 경우가 있습니다.
+GUI tools 그 밖에, 독립적인 프로그램으로 GUI를 지원하는 경우도 있습니다. 아래와 같은 종류가 있습니다.
+ Source tree GitKraken Github Desktop Tower GitAhead  하지만 터미널 환경에서 git은 모든 기능을 제공해주는 반면에, 이러한 GUI 프로그램은 모든 기능을 제공하진 않을수도 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>Linux Shell Script</title>
+      <link>https://highlaw00.github.io/teamWebPage/linux/linux-shell-script-serenata2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://highlaw00.github.io/teamWebPage/linux/linux-shell-script-serenata2/</guid>
+      <description>Shell Script란?  Shell : 운영체제의 커널과 사용자 사이를 이어주는 다리 역활을 한다. 즉, 커널이 알아들을 수 있는 프로그래밍 언어. Shell Script : Shell에서 사용할 수 있는 명령어가 모인 파일로 첫 번째 줄에 어떤 Shell 인터프리터를 사용할 것인지 명시한다.  대표적인 명령행 편집기   nano
+ Ubuntu 기본 편집기 Ctrl + g : 모든 항목 보기 Ctrl + o : 저장 Ctrl + x : 종료 Ctrl + w : 검색    vi/vim</description>
+    </item>
+    
+    <item>
       <title>Linux 명렁어</title>
       <link>https://highlaw00.github.io/teamWebPage/linux/linux-command-serenata2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://highlaw00.github.io/teamWebPage/linux/linux-command-serenata2/</guid>
       <description>CLI? GUI?  CLI : 명령줄 인터페이스 GUI : 그래픽 사용자 인터페이스  Linux shell  운영체제 상에서 다양한 운영 체제 기능과 서비스를 구현하는 인터페이스를 제공하는 프로그램  Linux 사용자 계정  모든 계정은 숫자로 된 UID 값을 가짐 root 유저의 UID 0번을 가짐 사용자 계정은 /etc/passwd 파일에서 관리됨  Linux 기본 명령어  실행 중인 프로세스 보기  ps # 프로세서를 보는 명령어 ps -ef | grep python # python이라는 이름의 프로세스의 pid 찾기 kill pid # pid를 가지는 프로세스 강제 종료  문자열 다루기  more # 파일의 내용을 한 페이지씩 보여주는 명령어 less # 페이지 보여주는 명령어 cat # 파일 내용 출력 head # [-n 10] -&amp;gt; 맨 앞의 10줄만 보기 tail # [-n 10] -&amp;gt; 맨 뒤의 10줄만 보기 grep # 지정된 문자열이 포함된 행만 표시  파일의 권한, 권한 수정 명령  chmod 755 file_name # 111 101 101 chmod o+x file_name # other에게 실행 권한을 줌 chmod a+x file_name # 모든 그룹에게 실행 권한을 줌  ssh keygen  ssh-keygen -t rsa # RSA 알고리즘으로 키 생성 ssh-keygen -t ed25519 -C &amp;#34;your_mail@address.</description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>https://highlaw00.github.io/teamWebPage/web/network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://highlaw00.github.io/teamWebPage/web/network/</guid>
+      <description>Network 기본 개념 네트워크는 Net + Work 의 합성어로써 컴퓨터들이 통신 기술을 이용하여 그물망처럼 연결된 통신 이용 형태를 의미합니다. &amp;ldquo;두 대 이상의 컴퓨터들을 연결하고 서로 통신할 수 있는 것&amp;quot;이 네트워크 입니다. IEEE(Institute of Electrical and Electronics Engineers:국제 전기 전자 공학회)에서는 &amp;ldquo;몇 개의 독립적인 장치가 적절한 영역내에서 적당히 빠른 속도의 물리적 통신 채널을 통하여 서로가 직접 통신할 수 있도록 지원해 주는 데이타 통신 체계&amp;quot;라고 정의합니다. 주요 용어 * ip 주소 : 통신을 위해 인터넷 프로토콜을 사용하는 네트워크에 연결된 모든 디바이스에 할당된 고유 번호.</description>
     </item>
     
     <item>
@@ -69,7 +111,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://highlaw00.github.io/teamWebPage/web/web/</guid>
-      <description>Web 기본 개념    Web Page 구성 요소   문서의 내용과 구조를 제공하는 HTML이 기본 페이지 이며 여기에 모양을 변형하는 CSS와 동작을 제공하는 JavaScript가 추가된다.   HTML만으로 이루어진 페이지는 존재하나 CSS와 JavaScript만으로 구성된 페이지는 존재할 수 없다.   HTML : 내용(Content)  웹 페이지에 표시할 내용들을 포함한다. 웹 페이지의 구조를 기술한다. Elemnet(요소)들로 구성된다.    CSS(Cascading Style Sheets) : 모양(Style)  웹사이트의 레이아웃을 정함 글꼴, 색상 등의 디자인을 입히는 역할    JavaScript(ECMAScript) : 동작(Behavior)  객체 기반의 스크립트 프로그래밍 언어 브라우저에서 실행되어 동적인 웹페이지 구성 동적 클라이언트 사이드 -&amp;gt; Node.</description>
+      <description>Web 기본 개념   웹은 인터넷이라는 물리적 네트워크를 기반으로 한다.   인터넷 상에 TCP/IP라는 네트워크 전송 계층의 프로토콜을 사용한다.   TCP/IP 네트워크 전송 위에 HTTP라는 네트워크 응용계층 프로토콜을 사용한다.   HTTP 프로토콜을 이용해 HTML이라는 마크멉 언어로 작성된 하이퍼 텍스트 데이터를 전송한다.   Web Page 구성 요소   문서의 내용과 구조를 제공하는 HTML이 기본 페이지 이며 여기에 모양을 변형하는 CSS와 동작을 제공하는 JavaScript가 추가된다.   HTML만으로 이루어진 페이지는 존재하나 CSS와 JavaScript만으로 구성된 페이지는 존재할 수 없다.</description>
     </item>
     
   </channel>

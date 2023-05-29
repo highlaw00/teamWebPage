@@ -25,5 +25,17 @@
       <description>Github 1. Github란?  git을 기반으로 한 원격 저장소 호스팅 서비스  2. 보안 설정  github는 2FA(2팩터)인증 설정을 해야 한다. github는 패스워드 입력을 통한 저장소 사용이 금지되어, ssh key를 사용해야 한다. ssh key는 ed25519 방식으로 생성할 수 있다.  3. 코드 관리  github에서 repository를 생성하고, 로컬 컴퓨터에 clone한다. 로컬에서 작업 내용을 git add 명령어와 git commit 명령어로 커밋을 작성한다. git push를 통해 해당 커밋을 원격 저장소에 반영한다. git pull를 통해 다른 사람의 커밋 내역을 로컬로 가져올 수 있다.</description>
     </item>
     
+    <item>
+      <title>Git_Advanced</title>
+      <link>https://highlaw00.github.io/teamWebPage/git/git_advanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://highlaw00.github.io/teamWebPage/git/git_advanced/</guid>
+      <description>Git - Advanced github 사이트와 터미널 환경에서 git을 사용하는 것으로 모든 작업을 수행할 수 있습니다. 하지만 터미널 환경에 익숙하지 않은 사람들이 존재합니다. 이러한 사람들을 위해 GUI를 지원하는 다양한 프로그램들이 존재합니다.
+IDE 기본적으로 vs code, intellij 등 IDE나 텍스트 에디터에서 git을 사용할 수 있게 지원해주는 경우가 있습니다.
+GUI tools 그 밖에, 독립적인 프로그램으로 GUI를 지원하는 경우도 있습니다. 아래와 같은 종류가 있습니다.
+ Source tree GitKraken Github Desktop Tower GitAhead  하지만 터미널 환경에서 git은 모든 기능을 제공해주는 반면에, 이러한 GUI 프로그램은 모든 기능을 제공하진 않을수도 있습니다.</description>
+    </item>
+    
   </channel>
 </rss>
