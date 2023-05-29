@@ -7,13 +7,13 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Contact</title>
+<title>Linux 명렁어</title>
 <meta name="author" content="DevCows" />
 
 
 
 
-<meta name="keywords" content="devcows, hugo, go">
+<meta name="keywords" content="devcows, hugo, go, topics">
 
 
 <meta name="description" content="Site template made by Devcows using Hugo">
@@ -66,9 +66,9 @@
 
 <meta property="og:locale" content="en_us">
 <meta property="og:site_name" content="Universal">
-<meta property="og:title" content="Contact">
+<meta property="og:title" content="Linux 명렁어">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://highlaw00.github.io/teamWebPage/contact/" />
+<meta property="og:url" content="https://highlaw00.github.io/teamWebPage/linux/linux-command-serenata2/" />
 <meta property="og:description" content="Site template made by Devcows using Hugo">
 <meta property="og:image" content="https://highlaw00.github.io/teamWebPage/img/sharing-default.png">
 <meta property="og:image:type" content="image/png">
@@ -85,7 +85,7 @@
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@GoHugoIO">
-<meta name="twitter:title" content="Contact">
+<meta name="twitter:title" content="Linux 명렁어">
 
 <meta name="twitter:image" content="https://highlaw00.github.io/teamWebPage/img/sharing-default.png">
 
@@ -98,6 +98,7 @@
   <body>
 
     <div id="all">
+
         
 <header>
   <div id="top">
@@ -138,10 +139,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/teamWebPage/">
                     
-                      <img src="/teamWebPage/img/logo.png" alt="Contact logo" class="hidden-xs hidden-sm" />
-                      <img src="/teamWebPage/img/logo-small.png" alt="Contact logo" class="visible-xs visible-sm" />
+                      <img src="/teamWebPage/img/logo.png" alt="Linux 명렁어 logo" class="hidden-xs hidden-sm" />
+                      <img src="/teamWebPage/img/logo-small.png" alt="Linux 명렁어 logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Contact - go to homepage</span>
+                    <span class="sr-only">Linux 명렁어 - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -258,7 +259,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Contact</h1>
+                <h1>Linux 명렁어</h1>
             </div>
         </div>
     </div>
@@ -266,109 +267,215 @@
 
 
         <div id="content">
-            
+            <div class="container">
 
-              <div class="container" id="contact">
+                <div class="row">
 
-    <div class="row">
-        <div class="col-md-8">
+                    
 
-            <section>
+                    <div class="col-md-9" id="blog-post">
 
-                <h1 id="we-are-here-to-help-you">We are here to help you</h1>
-<p>Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.</p>
-<p>Please feel free to contact us, our customer service center is working for you 24/7.</p>
+                        
 
+                        <div id="post-content">
+                          <h2 id="cli-gui">CLI? GUI?</h2>
+<ul>
+<li>CLI : 명령줄 인터페이스</li>
+<li>GUI : 그래픽 사용자 인터페이스</li>
+</ul>
+<h2 id="linux-shell">Linux shell</h2>
+<ul>
+<li>운영체제 상에서 다양한 운영 체제 기능과 서비스를 구현하는 인터페이스를 제공하는 프로그램</li>
+</ul>
+<h2 id="linux-사용자-계정">Linux 사용자 계정</h2>
+<ul>
+<li>모든 계정은 숫자로 된 UID 값을 가짐</li>
+<li>root 유저의 UID 0번을 가짐</li>
+<li>사용자 계정은 /etc/passwd 파일에서 관리됨</li>
+</ul>
+<h2 id="linux-기본-명령어">Linux 기본 명령어</h2>
+<ul>
+<li>실행 중인 프로세스 보기</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ps <span style="color:#75715e"># 프로세서를 보는 명령어</span>
+ps -ef | grep python <span style="color:#75715e"># python이라는 이름의 프로세스의 pid 찾기</span>
+kill pid <span style="color:#75715e"># pid를 가지는 프로세스 강제 종료</span>
+</code></pre></div><ul>
+<li>문자열 다루기</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">more <span style="color:#75715e"># 파일의 내용을 한 페이지씩 보여주는 명령어</span>
+less <span style="color:#75715e"># 페이지 보여주는 명령어</span>
+cat <span style="color:#75715e"># 파일 내용 출력</span>
+head <span style="color:#75715e"># [-n 10] -&gt; 맨 앞의 10줄만 보기</span>
+tail <span style="color:#75715e"># [-n 10] -&gt; 맨 뒤의 10줄만 보기</span>
+grep <span style="color:#75715e"># 지정된 문자열이 포함된 행만 표시</span>
+</code></pre></div><ul>
+<li>파일의 권한, 권한 수정 명령</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">chmod <span style="color:#ae81ff">755</span> file_name <span style="color:#75715e"># 111 101 101</span>
+chmod o+x file_name <span style="color:#75715e"># other에게 실행 권한을 줌</span>
+chmod a+x file_name <span style="color:#75715e"># 모든 그룹에게 실행 권한을 줌</span>
+</code></pre></div><ul>
+<li>ssh keygen</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ssh-keygen -t rsa <span style="color:#75715e"># RSA 알고리즘으로 키 생성</span>
+ssh-keygen -t ed25519 -C <span style="color:#e6db74">&#34;your_mail@address.com&#34;</span> <span style="color:#75715e"># Github를 위한 keygen</span>
 
-                
-
-                <div class="heading">
-                  <h3>Contact form</h3>
-                </div>
-
-                <div id="contact-message"></div>
-
-                <form  method="post" action="https://formspree.io/sample/of/endpoint">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                              <label for="name">Your Name</label>
-                                <input type="text" class="form-control" name="name" id="name" required>
-                            </div>
+<span style="color:#75715e"># 개인키 : ~/.ssh/id_rsa</span>
+<span style="color:#75715e"># 공개키 : ~/.ssh/id_rsa_pub</span>
+</code></pre></div><ul>
+<li>ssh로 원격 시스템에 접속하기
+<ul>
+<li>ssh란 통신을 암호화 하여 보안을 강화하는 방식</li>
+<li>사용방식 : ssh 사용자id@IP -p 포트번호</li>
+<li>만약 포트를 특정하지 않으면 22번 포트로 ssh 접속 요청</li>
+<li>만약 사용자id를 특정하지 않으면 현재 시스템 사용자id로 접속을 요청</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ssh edu@195.117.50.9 -p <span style="color:#ae81ff">10022</span> <span style="color:#75715e"># id : edu, ip : 195.117.50.9, port : 10022</span>
+</code></pre></div><ul>
+<li>기타</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir <span style="color:#75715e"># 디렉토리 만들기</span>
+rmdir <span style="color:#75715e"># 디렉토리 지우기</span>
+touch <span style="color:#75715e"># 빈 파일을 만들기</span>
+which <span style="color:#75715e"># 경로에 있는 파일 찾기</span>
+</code></pre></div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label for="email">Your Email</label>
-                                <input type="email" autocomplete="email" class="form-control" name="email" id="email" required>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                              <label for="message">Your Message</label>
-                                <textarea id="message" class="form-control" name="message" required></textarea>
-                            </div>
+                        
+                        
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "devcows" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
                         </div>
                         
 
-                        <div class="col-sm-12 text-center">
-                          <button type="submit" class="btn btn-template-main"><i class="far fa-envelope"></i>Send Message</button>
-
-                        </div>
                     </div>
                     
-                </form>
 
-                
+                    
 
-            </section>
+                    
 
-        </div>
+                    <div class="col-md-3">
 
-        <div class="col-md-4">
+                        
 
-            
-            <section>
+                        
 
-              <h3 class="text-uppercase"> Address</h3>
+<div class="panel panel-default sidebar-menu">
 
-                <p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      
-
-            </section>
-
-            
-
-        </div>
-
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
     </div>
-    
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="https://highlaw00.github.io/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
 </div>
 
 
-  
-    
-        <div class="hidden">
-          <input id="gmap-lat" value="-12.043333" />
-          <input id="gmap-lng" value="-77.028333" />
-          <input id="gmap-marker" value="/teamWebPage/img/marker.png" />
-          
-            <input id="gmap-dir" value="-12.043333,-77.028333" />
-          
-        </div>
-        <div id="map" />
-    
-  
 
 
 
 
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            
+            <li>
+                <a href="/teamWebPage/categories/git">GIT (2)</a>
+            </li>
+            
+            <li>
+                <a href="/teamWebPage/categories/topics">TOPICS (6)</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Tags</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            
+            <li >
+                <a href="/teamWebPage/tags/git"><i class="fas fa-tags"></i> git</a>
+            </li>
+            
+            <li >
+                <a href="/teamWebPage/tags/topics"><i class="fas fa-tags"></i> topics</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
             
         </div>
         

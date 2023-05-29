@@ -7,13 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://highlaw00.github.io/teamWebPage/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git Hub</title>
+      <title>Git</title>
       <link>https://highlaw00.github.io/teamWebPage/git/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://highlaw00.github.io/teamWebPage/git/git/</guid>
       <description>Git 1. Git이란? git은 컴퓨터의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템이다.
 2. Git 소스 상태  tracked : 추적 대상(관리 대상) untracked : 추적 대상 아님 git status : 추적 대상인지 확인하는 명령어  3. 관리 대상 상태  committed : 버전관리에 안전하게 저장됨, snapshot staged : 커밋할 대상이라고 표시된 상태 modified : 파일이 수정되었지만 staged 되지 않음 tracked 인 파일은 변경을 감지함 untracked인 파일은 변경을 감지하지 않음 untracked인 파일이 새로 생긴 것은 감지함  4.</description>
+    </item>
+    
+    <item>
+      <title>Git Hub</title>
+      <link>https://highlaw00.github.io/teamWebPage/git/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://highlaw00.github.io/teamWebPage/git/github/</guid>
+      <description>Github 1. Github란?  git을 기반으로 한 원격 저장소 호스팅 서비스  2. 보안 설정  github는 2FA(2팩터)인증 설정을 해야 한다. github는 패스워드 입력을 통한 저장소 사용이 금지되어, ssh key를 사용해야 한다. ssh key는 ed25519 방식으로 생성할 수 있다.  3. 코드 관리  github에서 repository를 생성하고, 로컬 컴퓨터에 clone한다. 로컬에서 작업 내용을 git add 명령어와 git commit 명령어로 커밋을 작성한다. git push를 통해 해당 커밋을 원격 저장소에 반영한다. git pull를 통해 다른 사람의 커밋 내역을 로컬로 가져올 수 있다.</description>
     </item>
     
   </channel>
