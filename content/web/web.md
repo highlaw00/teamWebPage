@@ -1,12 +1,14 @@
 +++
 title = "Web"
-tags = ["topics"]
-categories = ["topics"]
+tags = ["topics", "web"]
+categories = ["topics", "web"]
 +++
 
 ## Web 기본 개념
-* 
-###
+* #### 웹은 인터넷이라는 물리적 네트워크를 기반으로 한다.
+* #### 인터넷 상에 TCP/IP라는 네트워크 전송 계층의 프로토콜을 사용한다.
+* #### TCP/IP 네트워크 전송 위에 HTTP라는 네트워크 응용계층 프로토콜을 사용한다.
+* #### HTTP 프로토콜을 이용해 HTML이라는 마크멉 언어로 작성된 하이퍼 텍스트 데이터를 전송한다.
 
 ## Web Page 구성 요소
 * #### 문서의 내용과 구조를 제공하는 HTML이 기본 페이지 이며 여기에 모양을 변형하는 CSS와 동작을 제공하는 JavaScript가 추가된다.
