@@ -7,13 +7,13 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Git</title>
+<title>Docker</title>
 <meta name="author" content="DevCows" />
 
 
 
 
-<meta name="keywords" content="devcows, hugo, go, topics, git">
+<meta name="keywords" content="devcows, hugo, go, topics">
 
 
 <meta name="description" content="Site template made by Devcows using Hugo">
@@ -66,9 +66,9 @@
 
 <meta property="og:locale" content="en_us">
 <meta property="og:site_name" content="Universal">
-<meta property="og:title" content="Git">
+<meta property="og:title" content="Docker">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://highlaw00.github.io/teamWebPage/git/git/" />
+<meta property="og:url" content="https://highlaw00.github.io/teamWebPage/docker/docker/" />
 <meta property="og:description" content="Site template made by Devcows using Hugo">
 <meta property="og:image" content="https://highlaw00.github.io/teamWebPage/img/sharing-default.png">
 <meta property="og:image:type" content="image/png">
@@ -85,7 +85,7 @@
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@GoHugoIO">
-<meta name="twitter:title" content="Git">
+<meta name="twitter:title" content="Docker">
 
 <meta name="twitter:image" content="https://highlaw00.github.io/teamWebPage/img/sharing-default.png">
 
@@ -139,10 +139,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/teamWebPage/">
                     
-                      <img src="/teamWebPage/img/logo.png" alt="Git logo" class="hidden-xs hidden-sm" />
-                      <img src="/teamWebPage/img/logo-small.png" alt="Git logo" class="visible-xs visible-sm" />
+                      <img src="/teamWebPage/img/logo.png" alt="Docker logo" class="hidden-xs hidden-sm" />
+                      <img src="/teamWebPage/img/logo-small.png" alt="Docker logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Git - go to homepage</span>
+                    <span class="sr-only">Docker - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -259,7 +259,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Git</h1>
+                <h1>Docker</h1>
             </div>
         </div>
     </div>
@@ -279,43 +279,69 @@
 
                         <div id="post-content">
                           <hr>
-<h2 id="git">Git</h2>
-<h4 id="1-git이란">1. Git이란?</h4>
-<p>git은 컴퓨터의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템이다.</p>
-<h4 id="2-git-소스-상태">2. Git 소스 상태</h4>
+<h3 id="docker-개요"><strong>docker 개요</strong></h3>
 <ul>
-<li>tracked : 추적 대상(관리 대상)</li>
-<li>untracked : 추적 대상 아님</li>
-<li>git status : 추적 대상인지 확인하는 명령어</li>
+<li>가장 대표적인 컨테이너 프로그램, 컨테이너 런타임이라고도 함</li>
+<li>클라이언트/서버 구조의 프로그램</li>
+<li>서버 : dockerd, 데몬 프로그램, containerd 사용</li>
+<li>클라이언트 : docker CLI</li>
+<li>리눅스 소켓 통신</li>
 </ul>
-<h4 id="3-관리-대상-상태">3. 관리 대상 상태</h4>
+<hr>
+<h3 id="docker-설치wsl-ubuntu"><strong>docker 설치(wsl Ubuntu)</strong></h3>
+<h4 id="사전-작업--저장소-설정도커-설치를-위한-저장소를-설정">사전 작업 : 저장소 설정(도커 설치를 위한 저장소를 설정)</h4>
+<ol>
+<li>apt 패키지 인덱스(소스 리스트) 업데이트하고 필요 패키지 설치</li>
+</ol>
+<pre tabindex="0"><code>sudo apt-get update
+sudo apt-get install \
+ca-certificates \
+curl \
+gnupg
+</code></pre><ol start="2">
+<li>도커 공식 GPG 키 추가</li>
+</ol>
+<pre tabindex="0"><code>sudo mkdir -m 0755 -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+</code></pre><ol start="3">
+<li>저장소 셋업(아래는 하나의 명령)</li>
+</ol>
+<pre tabindex="0"><code>echo \
+&quot;deb [arch=&quot;$(dpkg --print-architecture)&quot; signed-by=/etc/apt/keyrings/docker.gpg]
+https://download.docker.com/linux/ubuntu \
+&quot;$(. /etc/os-release &amp;&amp; echo &quot;$VERSION_CODENAME&quot;)&quot; stable&quot; | \
+sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+</code></pre><h4 id="설치">설치</h4>
+<p>• apt 패키지 인덱스(소스 리스트) 업데이트</p>
+<pre tabindex="0"><code>sudo apt-get update
+</code></pre><p>• 도커 엔진, containerd, 도커 컴포즈 설치</p>
+<pre tabindex="0"><code>sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+</code></pre><hr>
+<h3 id="docker-실행"><strong>docker 실행</strong></h3>
+<h4 id="도커-데몬-실행root-권한-필요">도커 데몬 실행(root 권한 필요)</h4>
 <ul>
-<li>committed : 버전관리에 안전하게 저장됨, snapshot</li>
-<li>staged : 커밋할 대상이라고 표시된 상태</li>
-<li>modified : 파일이 수정되었지만 staged 되지 않음</li>
-<li>tracked 인 파일은 변경을 감지함</li>
-<li>untracked인 파일은 변경을 감지하지 않음</li>
-<li>untracked인 파일이 새로 생긴 것은 감지함</li>
+<li>아래 명령으로 서비스 실행</li>
 </ul>
-<h4 id="4-git-명령어">4. git 명령어</h4>
-<pre tabindex="0"><code> git add : untraked 인 파일을 tracked로 변경, 동시에 staged로 변경
+<pre tabindex="0"><code>sudo service docker start
+</code></pre><ul>
+<li>또는 아래 명령으로 백그라운드 서비스로 실행</li>
+</ul>
+<pre tabindex="0"><code>nohup sudo dockerd &amp;
+</code></pre><ul>
+<li>실행 확인</li>
+</ul>
+<pre tabindex="0"><code>ps -ef|grep dockerd
+</code></pre><h4 id="도커-명령-실행">도커 명령 실행</h4>
+<ul>
+<li>버전 확인</li>
+</ul>
+<pre tabindex="0"><code>sudo docker --version
+</code></pre><ul>
+<li>컨테이너 실행 테스트</li>
+</ul>
+<pre tabindex="0"><code>sudo docker run hello-world
+</code></pre><hr>
 
- git commit : staged된 파일을 커밋
-
- git rm : traked인 상태의 파일을 삭제
-
- git reset HEAD &lt;파일&gt; : 파일 상태를 unstage로 변경
-
- git commit --amend : 커밋 재작성
-
- git checkout -- &lt;file&gt; : stage 되지 않은 파일을 되돌리기
- 
- git checkout &lt;branch명&gt; : branch로 HEAD를 이동
-
- git revert &lt;커밋명&gt; : 해당 커밋을 취소
-
- git reset --hard &lt;이동하려는 이전 커밋&gt; : 특정 커밋으로 이동, 저장이 안되기 때문에 주의해야 함.
-</code></pre>
                         </div>
                         
                         

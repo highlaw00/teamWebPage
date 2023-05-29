@@ -7,12 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://highlaw00.github.io/teamWebPage/tags/topics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>25key&#39;s Topic</title>
-      <link>https://highlaw00.github.io/teamWebPage/docker/25key/</link>
+      <title>Docker</title>
+      <link>https://highlaw00.github.io/teamWebPage/docker/docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://highlaw00.github.io/teamWebPage/docker/25key/</guid>
-      <description>여기에 텍스트, 이미지를 삽입하시면 됩니다. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu sodales elit, vel efficitur odio. Donec consequat, augue at hendrerit imperdiet, diam lectus ultricies ante, eu pulvinar risus ante suscipit massa. Quisque placerat magna velit, sed mattis nisl finibus quis. Donec convallis vestibulum lorem, efficitur pretium purus lacinia nec. Maecenas at mauris metus. Quisque diam nunc, placerat eget sem at, gravida rhoncus neque. Nunc cursus tincidunt felis et gravida.</description>
+      <guid>https://highlaw00.github.io/teamWebPage/docker/docker/</guid>
+      <description>docker 개요  가장 대표적인 컨테이너 프로그램, 컨테이너 런타임이라고도 함 클라이언트/서버 구조의 프로그램 서버 : dockerd, 데몬 프로그램, containerd 사용 클라이언트 : docker CLI 리눅스 소켓 통신   docker 설치(wsl Ubuntu) 사전 작업 : 저장소 설정(도커 설치를 위한 저장소를 설정)  apt 패키지 인덱스(소스 리스트) 업데이트하고 필요 패키지 설치  sudo apt-get update sudo apt-get install \ ca-certificates \ curl \ gnupg 도커 공식 GPG 키 추가  sudo mkdir -m 0755 -p /etc/apt/keyrings curl -fsSL https://download.</description>
+    </item>
+    
+    <item>
+      <title>Docker container</title>
+      <link>https://highlaw00.github.io/teamWebPage/docker/docker_container/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://highlaw00.github.io/teamWebPage/docker/docker_container/</guid>
+      <description>도커 컨테이너 이미지 컨테이너 이미지란  컨테이너 실행을 위한 일종의 템플릿 파일, 그림 파일 아님 소스 코드, 라이브러리, 종속성, 도구 및 응용 프로그램을 실행하는데 필요한 기타 파일을 포함하는 불변(변경 불가) 파일 읽기 전용 파일이며 스냅샷이라고도 함 특정 시점의 애플리케이션과 가상환경을 포함 하나의 이미지 파일을 가지고 여러 개의 컨테이너를 실행할 수 있음  로컬에 저장된 도커 컨테이너 이미지 확인 docker images 도커 컨테이너의 이미지 확인  실행 중인 컨테이너  docker ps  실행이 종료된 컨테이너 포함  docker ps -a 도커 컨테이너 실행  도커 이미지 풀  docker pull ubuntu:22.</description>
     </item>
     
     <item>
